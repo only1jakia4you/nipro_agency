@@ -1,0 +1,752 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	header{
+		padding: 20px 0;
+	}
+	.logo{
+		width: 180px;
+	}
+	.menu ul li a{
+	padding: 5px 0 0;
+	text-align: right;
+}
+.btn_c{
+	padding: 5px 0 0;
+	display: flex;
+	justify-content: end;
+}
+/*banner start*/
+.banner{
+	background-position: center;
+}
+.b_text{
+	margin: 60px 0;
+}
+.b_text h2{
+font-size: 25px;
+}
+.b_text p{
+	margin: 15px 0;
+	font-size: 14px;
+}
+.b_text a{
+	font-size: 14px;
+}
+.btn_np{
+	font-size: 14px;
+}
+/*service*/
+.service{
+	padding-bottom: 70px;
+}
+.c_arrow{
+	height: 25px;
+	width: 2px;
+}
+.c_title h1 {
+    font-size: 20px;
+    margin: 10px 0 25px;
+}
+/*service section*/
+.sv_item {
+    margin-top: 50px;
+    padding: 50px 10px 25px;
+}
+.sv_icon i {
+    font-size: 55px;
+}
+/*about us*/
+.about_us{
+	padding-bottom: 65px;
+}
+.au_img{
+	text-align: center;
+}
+.a_text{
+	margin: 0;
+	text-align: center;
+}
+.a_h1{
+	margin: 30px 0 25px;
+}
+.a_p{
+	margin: 0 0 25px !important;
+}
+/*recent work*/
+.recent_work{
+	padding-bottom: 60px;
+}
+.portfolio a{
+	margin-bottom: 10px;
+}
+.p_img{
+	margin-top: 10px;
+}
+.p_icon i{
+	font-size: 55px;
+	top: 35%;
+}
+.p_text{
+	padding: 10px 20px;
+}
+.p_text h3{
+font-size: 16px;
+}
+/*why choose nipro*/
+.why_choose{
+	padding-bottom: 45px;
+}
+.why_icon{
+	text-align: center;
+}
+.why_icon i{
+	font-size: 45px;
+}
+.why_title h2{
+	font-size: 16px;
+}
+.p_para{
+	margin: 10px 0;
+}
+.custom_hr {
+    width: 280px;
+}
+/*who work with us start*/
+.who{
+	background-position: center;
+}
+.cc_title h1{
+	margin: 15px 0 45px;
+	font-size: 27px;
+}
+.www{
+	margin-bottom: 40px;
+}
+
+/*pricing*/
+.price{
+	padding-bottom: 70px;
+}
+/*buy*/
+.t_text p{
+	font-size: 16px !important;
+}
+
+.b_link{
+	padding: 15px 0;
+	text-align: center !important;
+}
+/*rayhan*/
+.rayhan {
+     padding: 50px 0;
+   }
+
+   .sing_item{
+     text-align: center;
+     padding: 20px 5px;
+     line-height: 28px;
+   }
+
+   .r_img {
+     padding: 0 50px;
+   }
+	.r_h3 {
+     margin: 10px 0 5px;
+     font-size: 17px;
+   }
+
+   .r_p1 {
+     font-size: 16px;
+   }
+
+   .r_h4 {
+     margin: 0 0 7px;
+     font-size: 17px;
+   }
+
+   .r_p2 {
+     margin-bottom: 5px;
+   }
+
+   .carousel_button {
+     text-align: center;
+     margin-top: 8px;
+     padding: 8px 2px;
+     writing-mode: horizontal-tb;
+   }
+
+   .btn_prev {
+     margin: 0 40px 0 0;
+   }
+
+   .btn_next {
+     margin: 0 0 0 40px;
+   }
+/* Contact Us start */
+.contact{
+	padding: 30px 0 60px 0;
+}
+   .contact_title {
+    /* top: -24px;*/
+     left: 65px;
+     padding: 0 6px;
+     font-size: 23px;
+   }
+
+   .contact_from {
+     padding: 35px 20px 0;
+   }
+
+   .custom_input {
+     font-size: 16px;
+     border: none;
+     padding: 5px 8px;
+     border-bottom: 1px solid #cccccc;
+   }
+
+   .text_area {
+     padding-bottom: 20px;
+   }
+
+   .btn_send {
+     font-size: 15px;
+     padding: 9px 15px !important;
+     margin: 0px 0 15px;
+   }
+   /* Footer Start */
+   /* Footer top */
+   .f_text p {
+     margin: 15px 0;
+
+   }
+
+   .f_link li {
+     margin-left: 0;
+   }
+
+   .f_link li a i {
+     padding-top: 7px;
+     width: 35px;
+     height: 35px;
+     font-size: 20px;
+   }
+
+   /* Footer top end*/
+   /* Footer Down Start */
+   .ft_down {
+   	margin-top: 40px;
+     padding: 20px 0;
+   }
+
+   .fd_text {
+     text-align: center;
+   }
+
+   .fd_link {
+     text-align: left;
+     margin-top: 10px;
+   }
+
+   .fd_link ul li {
+     margin: 0 0 0 3px !important;
+   }
+
+   .fd_link ul li a {
+     text-decoration: none;
+     font-size: 15px;
+   }
+
+
+   /* Footer End */
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header{
+    padding: 25px 0;
+  }
+  .logo{
+    width: 200px;
+  }
+  .menu ul li a{
+  padding: 5px 0 0;
+  text-align: right;
+}
+.btn_c{
+  padding: 5px 0 0;
+  display: flex;
+  justify-content: end;
+}
+/*banner start*/
+.banner{
+  background-position: center;
+}
+.b_text{
+  margin: 80px 0;
+}
+.b_text h2{
+font-size: 40px;
+}
+.b_text p{
+  margin: 15px 0;
+}
+/*service*/
+.service{
+  padding-bottom: 70px;
+}
+.c_arrow{
+  height: 40px;
+  width: 2px;
+}
+.c_title h1 {
+    font-size: 25px;
+    margin: 18px 0 30px;
+}
+/*service section*/
+.sv_item {
+    margin-top: 50px;
+    padding: 65px 10px 30px;
+}
+/*about us*/
+.about_us{
+  padding-bottom: 70px;
+}
+.au_img{
+  text-align: center;
+}
+.a_text{
+  margin: 0;
+  text-align: center;
+}
+.a_h1{
+  margin: 30px 0 25px;
+}
+.a_p{
+  margin: 0 0 25px !important;
+}
+/*recent work*/
+.recent_work{
+  padding-bottom: 70px;
+}
+.portfolio{
+  text-align: left !important;
+}
+.portfolio a{
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.p_icon i{
+  font-size: 55px;
+  top: 35%;
+}
+.p_text{
+  padding: 10px 20px;
+}
+.p_text h3{
+font-size: 16px;
+}
+
+/*why choose nipro*/
+.why_choose{
+  padding-bottom: 60px;
+}
+.why_content{
+  margin-bottom: 30px;
+}
+.why_title h2 {
+    margin-left: -35px;
+    margin-top: 8px;
+}
+.custom_hr {
+    width: 245px;
+}
+/*who work with us start*/
+.who{
+  background-position: center;
+}
+.cc_title h1{
+  margin: 18px 0 50px;
+}
+.www{
+  margin-bottom: 40px;
+}
+/*pricing*/
+.price{
+  padding-bottom: 70px;
+}
+/*rayhan start*/
+.rayhan{
+  padding: 60px 0;
+}
+.sing_item{
+     text-align: center;
+     padding: 25px 30px 25px 25px;
+     line-height: 28px;
+   }
+
+   .r_img {
+     padding: 0 135px;
+   }
+  .r_h3 {
+     margin: 15px 0 5px;
+     font-size: 17px;
+   }
+
+   .r_p1 {
+     font-size: 17px;
+   }
+
+   .r_h4 {
+     margin: 5px 0 8px;
+     font-size: 17px;
+   }
+
+   .r_p2 {
+     margin-bottom: 7px;
+   }
+
+   .carousel_button {
+     text-align: center;
+     margin-top: 10px;
+     padding: 8px 2px;
+     writing-mode: horizontal-tb;
+   }
+
+   .btn_prev {
+     margin: 0 40px 0 0;
+   }
+
+   .btn_next {
+     margin: 0 0 0 40px;
+   }
+
+/* Contact Us start */
+.contact{
+  padding: 30px 0 60px 0;
+}
+   .contact_title {
+     /*top: -26px;*/
+     left: 188px;
+     padding: 0 8px;
+   }
+
+   .contact_from {
+     padding: 35px 40px 0;
+   }
+
+   .custom_input {
+     border: none;
+     padding: 10px 12px;
+     border-bottom: 1px solid #cccccc;
+   }
+
+   .text_area {
+     padding-bottom: 30px;
+   }
+
+   .btn_send {
+     padding: 9px 20px !important;
+     margin: 25px 0 25px;
+   }
+/* Footer Start */
+   /* Footer top */
+   .f_text p {
+     margin: 20px 0;
+   }
+
+   .f_link li a i {
+     padding-top: 7px;
+     width: 45px;
+     height: 45px;
+     font-size: 26px;
+   }
+
+   /* Footer top end*/
+   /* Footer Down Start */
+   .ft_down {
+    margin-top: 40px;
+     padding: 30px 0;
+   }
+
+   .fd_text {
+     text-align: center;
+   }
+
+   .fd_link {
+     text-align: center;
+     margin-top: 15px;
+   }
+
+   /* Footer End */
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*header start*/
+.menu ul li a{
+  padding: 8px 0 0;
+  text-align: right;
+}
+.btn_c{
+  display: flex;
+  justify-content: end;
+}
+/*banner*/
+.b_text{
+  margin: 100px 0;
+}
+.b_text h2{
+font-size: 50px;
+}
+.b_text p{
+  margin: 20px 0;
+}
+/*service start*/
+.service{
+  padding-bottom: 90px;
+}
+.c_title h1{
+ margin: 20px 0 35px;
+}
+/*about us*/
+.about_us{
+  padding-bottom: 80px;
+}
+.au_img img{
+  width: 100%;
+}
+.a_h1{
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.a_p{
+  margin:0 0 15px !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn_a{
+  font-size: 14px;
+}
+/*recent work*/
+.recent_work{
+  padding-bottom: 70px;
+}
+.portfolio a{
+  margin-bottom: 30px;
+}
+.p_icon i{
+  font-size: 55px;
+  top: 38%;
+}
+.p_text{
+  padding: 10px 20px;
+}
+.p_text h3{
+font-size: 16px;
+}
+/*why choose nipro*/
+.why_choose{
+  padding-bottom: 60px;
+}
+.why_title h2{
+  margin-left: -35px;
+}
+/*who work with us start*/
+.who{
+  background-position: center;
+}
+.cc_title h1{
+  margin: 20px 0 60px;
+}
+.www{
+  margin-bottom: 50px;
+}
+/*pricing*/
+.price{
+  padding-bottom: 80px;
+}
+/*rayhan start*/
+.rayhan{
+  padding: 70px 0;
+}
+.sing_item{
+     text-align: center;
+     padding: 30px 40px 30px 40px;
+   }
+
+ .r_img {
+     padding: 0 200px;
+   }
+.r_h3 {
+     margin: 25px 0 8px;
+     font-size: 17px;
+   }
+
+ .r_p1 {
+     font-size: 17px;
+   }
+
+  .r_h4 {
+     margin: 5px 0 10px;
+     font-size: 17px;
+   }
+
+   .r_p2 {
+     margin-bottom: 13px;
+   }
+
+   .carousel_button {
+     text-align: center;
+     margin-top: 15px;
+     padding: 13px 10px;
+     writing-mode: horizontal-tb;
+   }
+
+   .btn_prev {
+     margin: 0 60px 0 0;
+   }
+
+   .btn_next {
+     margin: 0 0 0 60px;
+   }
+   /* Contact Us start */
+   .contact{
+    padding: 35px 0 70px 0;
+   }
+   .contact_title {
+     top: -39px;
+     left: 266px;
+     padding: 0 8px;
+   }
+
+   .contact_from {
+     padding: 40px 90px 0;
+   }
+
+   .custom_input {
+     border: none;
+     padding: 12px 20px;
+     border-bottom: 1px solid #cccccc;
+   }
+
+   .text_area {
+     padding-bottom: 40px;
+   }
+
+   .btn_send {
+     padding: 13px 30px !important;
+     margin: 19px 0 30px;
+   }
+   /* Footer Start */
+   /* Footer top */
+   .f_text p {
+     margin: 20px 0;
+   }
+
+   .f_link li a i {
+     padding-top: 7px;
+     width: 45px;
+     height: 45px;
+     font-size: 26px;
+   }
+
+   /* Footer top end*/
+   /* Footer Down Start */
+   .ft_down {
+    margin-top: 50px;
+     padding: 30px 0;
+   }
+
+   .fd_text {
+     text-align: center;
+   }
+
+   .fd_link {
+     text-align: center;
+     margin-top: 15px;
+   }
+
+   /* Footer End */
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .b_text {
+    margin: 180px 0;
+}
+.about_us{
+  padding-bottom: 100px;
+}
+.a_h1{
+  margin-bottom: 15px;
+}
+.a_p {
+    margin: 0 0 15px !important;
+    line-height: 22px; 
+    font-size: 14px;
+}
+.why_title h2{
+    margin-left: -30px;
+}
+.custom_hr{
+  width: 300px;
+}
+/*who work with us*/
+.cc_title h1{
+margin: 20px 0 70px;
+}
+   /* al rayhan Start */
+   .sing_item {
+     padding: 23px 10px 25px 14px;
+   }
+
+   .carousel_button {
+     padding: 25px 12px;
+   }
+
+   .r_h3 {
+     margin-bottom: 5px;
+   }
+
+   .r_h4 {
+     margin: 6px 0 10px;
+   }
+
+   .r_p2 {
+     margin-bottom: 10px;
+   }
+   /* Contact us Start */
+   .contact_title {
+     top: -39px;
+     left: 94px;
+   }
+
+   .contact_from {
+     padding: 50px 140px 0;
+   }
+
+   .btn_send {
+     margin: 25px 0 35px;
+   }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98) { 
+  .why_title h2{
+    margin-left: -45px !important;
+  }
+}
+
+/* Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+  /*rayhan start*/
+  .sing_item{
+     padding: 35px 62px 26px 25px;
+   }
+   /* Contact Us start */
+   .contact_title {
+     left: 157px;
+   }
+}
